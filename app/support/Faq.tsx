@@ -1,32 +1,32 @@
-export const arrayFAQ  = [
+export const arrayFAQ = [
     {
-        id:1,
-        que : 'How do I pair my Beats with a device?',
-        ans : 'Follow these steps to pair your Beats with an Apple or Android™ device.'
+        id: 1,
+        que: 'How do I pair my headphones or earbuds with a device?',
+        ans: 'Turn on Bluetooth on your phone or laptop, then press and hold the pairing button on your headphones or earbuds until the indicator light flashes. Select your product name from the list to connect.'
     },
     {
-        id:2,
-        que : 'How do I control noise cancelling?',
-        ans : 'On supported Beats, press and hold the “b” button to toggle between Active Noise Cancelling (ANC) and Transparency mode. You can also control listening modes, and customize your “b” button functionality within Apple device settings or the Beats app for Android.'
+        id: 2,
+        que: 'Why is my audio cutting in and out?',
+        ans: 'Ensure your device is within Bluetooth range and not blocked by walls or other electronics. Try reconnecting or resetting your headphones if the issue continues.'
     },
     {
-        id:3,
-        que : 'I can’t connect to my Beats, how do I troubleshoot?',
-        ans : 'Learn how to troubleshoot the Bluetooth® connection between your Beats and your iPhone, iPad, Mac, or other device.'
+        id: 3,
+        que: 'How do I reset my headphones or earbuds?',
+        ans: 'Press and hold the power and volume buttons (or the pairing button, depending on your model) until the LED flashes. This restores factory settings and clears previous pairings.'
     },
     {
-        id:4,
-        que : 'The audio keeps disconnecting or cuts in and out, how do I troubleshoot?',
-        ans : 'Find out how to improve your Bluetooth® connection, or try unpairing and then pairing your Beats again.'
+        id: 4,
+        que: 'Can I use my headphones while charging?',
+        ans: 'Some models support listening while charging through a wired connection, while others disable playback until charging is complete. Check your product manual for details.'
     },
     {
-        id:5,
-        que : 'How do I reset my Beats?',
-        ans : "If you're experiencing sound, pairing, or charging issues with your Beats, first make sure the device they’re paired with is up to date, then try resetting them."
+        id: 5,
+        que: 'Are my headphones or speakers water resistant?',
+        ans: 'Some models come with IPX ratings that indicate water or sweat resistance. Always check the specifications before exposing them to moisture or rain.'
     },
     {
-        id:6,
-        que : 'How do I locate my Beats?',
-        ans : "You can use Find My on your iPhone, iPad, Mac, or Apple Watch to see your Beats last connected location on a map. You can also find your Beats on the web at iCloud.com/find.\n On your Android device, use the Beats app for Android to locate your Beats."
+        id: 6,
+        que: 'How should I clean my headphones or earbuds?',
+        ans: 'Use a soft, dry cloth to wipe the surfaces. Avoid using water or cleaning sprays. For earbuds, gently clean the ear tips with a dry cotton swab.'
     }
-]
+];
