@@ -20,14 +20,11 @@ function Navbar() {
         >
           Support
         </Link>
-        <Link
-          href={"/promotions"}
-          className="text-[rgb(277,24,55)] font-primary font-semibold hover:underline underline-offset-8 decoration-red-400 decoration-solid"
-        >
-          Gift Guide
-        </Link>
+        
       </div>
-      <div className="">Search Icon</div>
+      <div className="">
+        <div>Github</div>
+      </div>
     </div>
   );
 }
