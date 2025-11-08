@@ -3,7 +3,7 @@ import { cn } from "@/libs/utils";
 
 interface buttonProps {
   name: string;
-  icon: React.ElementType;
+  icon?: React.ElementType;
   color?: string;
   className?: string;
 }
@@ -15,10 +15,12 @@ function Button({ icon: Icon, name, color, className }: buttonProps) {
         className
       )}
     >
-      <div className="text-white tracking-tighter font-primary font-stretch-50% font-bold ">
+      <div className=" tracking-tighter font-primary font-stretch-50% font-bold ">
         {name}
       </div>
-      <Icon color={`${color}`} />
+      {Icon && (
+        <Icon color={`${color}`} />
+      )}
     </div>
   );
 }
