@@ -15,7 +15,7 @@ function Category(props: propsSyntax) {
         {props.items.map((ele, idx) => (
           <div
             key={idx}
-            className="hover:underline underline-offset-4 decoration-red-700 cursor-pointer"
+            className="hover:underline underline-offset-4 decoration-neutral-600 cursor-pointer"
           >
             {ele}
           </div>
