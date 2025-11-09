@@ -158,7 +158,7 @@ function page() {
       
       <div className="bg-black">
         <div className=" max-w-4xl m-auto text-white  flex justify-evenly items-center p-20 ">
-        <div className="text-4xl font-primary font-semibold tracking-tight">Get support for your Beats</div>
+        <div className="text-4xl font-primary font-semibold tracking-tight">Get support for your device</div>
         <Button className={cn('border border-white bg-black transition-all duration-300 ease-in-out hover:scale-105 hover:bg-white hover:text-neutral-800')} color="white" name="CONTACT US"/>
       </div>
       </div>
