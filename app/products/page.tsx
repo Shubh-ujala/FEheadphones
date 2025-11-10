@@ -1,11 +1,12 @@
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
 function page() {
   return (
-    <div>
-       <div>Name of the Category comes here</div>
+    <div className="flex flex-col justify-center">
+      here comes the products
     </div>
-  )
+  );
 }
 
-export default page
+export default page;
