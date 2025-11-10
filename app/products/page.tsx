@@ -3,7 +3,7 @@ import React from 'react'
 function page() {
   return (
     <div>
-    this is the products page!
+       <div>Name of the Category comes here</div>
     </div>
   )
 }
