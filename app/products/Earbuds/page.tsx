@@ -1,16 +1,14 @@
 import React from 'react'
+import ProductCard from '@/components/ProductsPage/ProductCard'
 import { data } from '../productsData'
 function page() {
-  const earbuds = data.Earbuds
+  const earbuds = data.Earbuds  
   return (
     <>
-      {earbuds.map((ele)=>(
-        <div key={ele.id} className="p-4 border rounded-xl text-center bg-white shadow">
-          <h2 className="font-semibold text-lg">{ele.name}</h2>
-          <p className="text-gray-500">{ele.brand}</p>
-          <p className="font-bold text-blue-600">{ele.price}</p>
-        </div>
-      ))}
+      <div className='max-w-7xl m-auto my-10'>
+        <ProductCard items={earbuds}/>
+      </div>
+      
     </>
   )
 }

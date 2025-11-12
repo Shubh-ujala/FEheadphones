@@ -1,10 +1,14 @@
+import ProductCard from '@/components/ProductsPage/ProductCard'
 import React from 'react'
-
+import { data } from '../productsData'
 function page() {
+  const speakers = data.Speakers
   return (
-    <div>
-      hi from the speakers page!
-    </div>
+   <>
+    <div className='max-w-7xl m-auto my-10'>
+        <ProductCard items={speakers}/>
+      </div>
+   </>
   )
 }
 
