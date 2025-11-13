@@ -12,17 +12,27 @@ function Layout({ children }: { children: React.ReactNode }) {
       </div>
       <div className="flex justify-center gap-5 mt-10 font-primary font-semibold ">
         <Link
+          href={"/products"}
+          className="cursor-pointer hover:underline underline-offset-5 text-neutral-900"
+          onClick={() => {
+            setCategory("Customer's Favorites");
+          }}
+        >
+          Featured
+        </Link>
+        <Link
           href={"/products/Headphones"}
-          className="cursor-pointer hover:underline underline-offset-5 "
+          className="cursor-pointer hover:underline underline-offset-5 text-neutral-700  "
           onClick={() => {
             setCategory("Wireless & Wired Headphones");
           }}
         >
           Headphones
+        
         </Link>
         <Link
           href={"/products/Earbuds"}
-          className="cursor-pointer hover:underline underline-offset-5 "
+          className="cursor-pointer hover:underline underline-offset-5 text-neutral-700 "
           onClick={() => {
             setCategory("Wireless Earbuds");
           }}
@@ -31,7 +41,7 @@ function Layout({ children }: { children: React.ReactNode }) {
         </Link>
         <Link
           href={"/products/Speakers"}
-          className="cursor-pointer hover:underline underline-offset-5 "
+          className="cursor-pointer hover:underline underline-offset-5 text-neutral-700 "
           onClick={() => {
             setCategory("Bluetooth® Speakers");
           }}
