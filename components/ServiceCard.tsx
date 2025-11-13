@@ -12,7 +12,7 @@ function ServiceCard(props: reqProps) {
   return (
     <div className="mt-2 p-5">
       <div className="flex justify-center">
-        <Image width={72} height={72} src={props.img} alt="image" />
+        <Image width={72} height={72} src={`/${props.img}`} alt="image" />
       </div>
       <div className="flex justify-center mt-5 text-xl font-primary font-bold">
         {props.title}
