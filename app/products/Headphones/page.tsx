@@ -7,7 +7,7 @@ function page() {
   return (
     <>
       <div className='max-w-7xl m-auto my-10'>
-        <ProductCard items={headphones}/>
+        <ProductCard items={headphones} />
       </div>
     </>
   )
