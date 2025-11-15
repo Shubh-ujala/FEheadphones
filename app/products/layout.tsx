@@ -9,7 +9,7 @@ function Layout({ children }: { children: React.ReactNode }) {
   return (
     <>
     <Navbar/>
-    <div className="mb-3">
+    <div className="mb-3 pt-10">
       <div className="flex justify-center text-4xl font-bold font-primary tracking-tight">
         {Category}
       </div>
