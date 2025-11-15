@@ -11,7 +11,7 @@ interface cardProps {
 
 function Card(props: cardProps) {
   return (
-    <div className="p-5 bg-white border-white rounded-2xl shadow-2xl max-w-xl w-[350px] h-[470px] transition-all duration-200 hover:scale-105 cursor-pointer">
+    <div className="p-5 bg-white border-white rounded-2xl shadow-2xl max-w-xl w-[350px] h-[470px] transition-all duration-200 hover:scale-105 cursor-auto">
       <div className="font-primary text-2xl font-semibold tracking-tighter ">
         {props.title}
       </div>
