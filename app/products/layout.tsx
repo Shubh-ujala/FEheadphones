@@ -1,4 +1,5 @@
 "use client";
+import Navbar from "@/components/Navbar";
 import ProductsNav from "@/components/ProductsPage/ProductsNav";
 import Link from "next/link";
 import React, { useState } from "react";
@@ -6,7 +7,9 @@ import React, { useState } from "react";
 function Layout({ children }: { children: React.ReactNode }) {
   const [Category, setCategory] = useState("Headphones");
   return (
-    <div className="mt-7 mb-3">
+    <>
+    <Navbar/>
+    <div className="mb-3">
       <div className="flex justify-center text-4xl font-bold font-primary tracking-tight">
         {Category}
       </div>
@@ -52,6 +55,7 @@ function Layout({ children }: { children: React.ReactNode }) {
       <div className=" w-full bg-neutral-400 h-px"></div>
       <div>{children}</div>
     </div>
+    </>
   );
 }
 
