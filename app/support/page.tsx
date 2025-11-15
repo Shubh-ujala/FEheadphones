@@ -9,6 +9,7 @@ import ServiceCard from "@/components/ServiceCard";
 import { FaApple } from "react-icons/fa";
 import Button from "@/components/Button";
 import {cn} from '@/libs/utils'
+import Navbar from "@/components/Navbar";
 
 
 function page() {
@@ -48,6 +49,7 @@ function page() {
   // {console.log(arrayFAQ)}
   return (
     <>
+    <Navbar/>
       {/* promotion done */}
       {/* <div className="w-full  tracking-tight cursor-pointer  p-3 bg-neutral-900 text-neutral-200 flex gap-1 justify-center">
         <a
@@ -122,7 +124,7 @@ function page() {
       </div>
 
       {/* Service and repair section */}
-      <div className="w-full pt-5 m-auto bg-white pb-10">
+      {/* <div className="w-full pt-5 m-auto bg-white pb-10">
         <div className="text-4xl flex justify-center tracking-tight font-bold font-primary mt-10">
           Service And Repair
         </div>
@@ -148,7 +150,7 @@ function page() {
         </div>
 
         
-      </div>
+      </div> */}
       {/* AppleCare + headphones */}
       {/* <div className="my-10 flex justify-evenly max-w-4xl m-auto items-center px-10">
         <div><Image width={100} height={100} src={'/appleCare.png'} alt="apple care"/></div>
