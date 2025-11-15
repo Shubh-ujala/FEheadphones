@@ -1,17 +1,20 @@
-import React from 'react'
+import React from "react";
+import { data, CategoryType } from "@/app/products/productsData";
+import Info from "@/components/ProductInfo/Info";
+export default async function ProductPage({
+  params,
+}: {
+  params: { category: CategoryType; id: string };
+}) {
+  const { category, id } = await params;
 
-export default function ProductPage({ params}: { params: { category: string, id: string } } ) {
-  const { category, id } = params;
+  const list = data[category];
 
-  // const item = data[category].find((p) => p.id == id);
+  const item = list.find((ele) => ele.id === id);
 
   return (
-    <div>
-      {/* <h1>{item.name}</h1>
-      <p>{item.brand}</p>
-      <p>{item.price}</p>
-      <img src={item.img} /> */}
-      hiii
+    <div className="bg-neutral-200">
+      {item && <Info product={item} />}
     </div>
   );
 }
