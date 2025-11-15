@@ -1,5 +1,6 @@
 import { url } from 'inspector';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
 
 interface card{
@@ -7,7 +8,8 @@ interface card{
     img : string,
     brand: string,
     price : string,
-    name: string
+    name: string,
+    category: string
 }
 interface jsonData{
     items : card[]
@@ -20,7 +22,8 @@ function ProductCard(props:jsonData) {
   return (
     <div className='flex justify-evenly flex-wrap gap-10'>
           {content.map((ele,key)=>(
-             <div key={key} className='w-70 h-90 rounded-xl transition-all ease-in-out hover:scale-105 bg-neutral-300/50 p-5 cursor-pointer hover:shadow-xl/20'>
+             <Link key={key} href={`/product/${ele.category}/${ele.id}`}>
+              <div  className='w-70 h-90 rounded-xl transition-all ease-in-out hover:scale-105 bg-neutral-300/50 p-5 cursor-pointer hover:shadow-xl/20' >
                   <div className={`w-50 h-50 object-contain bg-no-repeat`}
                   style={{ backgroundImage: `url(${ele.img})` }}>
                   </div>
@@ -28,6 +31,7 @@ function ProductCard(props:jsonData) {
                   <div>{ele.name}</div>
                   <div>{ele.price}</div>
              </div>
+             </Link>
           ))}
     </div>
   )

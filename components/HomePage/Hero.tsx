@@ -2,9 +2,11 @@ import React from "react";
 import Marque from "../Marque";
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 import Link from "next/link";
+import Navbar from "../Navbar";
 function Hero() {
   return (
     <>
+     <Navbar/>
       <div className=" text-black max-w-7xl m-auto flex justify-evenly ">
         <div className="pt-[8%] max-w-3xl">
           <div className="tracking-tighter font-bold text-6xl leading-17 text-center">
