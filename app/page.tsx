@@ -10,9 +10,7 @@ export default function Home() {
       <div className="max-w-7xl m-auto">
         <Hero />
       </div>
-      
-        <Footer/>
-      
+      <Footer/>
     </>
   );
 }
