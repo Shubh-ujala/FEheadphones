@@ -34,7 +34,7 @@ export default function ImageSlider({ images }: ImageSliderProps) {
 
       <button
         onClick={goLeft}
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 p-2 rounded-full shadow hover:scale-105 transition"
+        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 p-2 rounded-full shadow hover:scale-105 transition cursor-pointer "
       >
         <FaChevronLeft size={20} />
       </button>
@@ -44,12 +44,12 @@ export default function ImageSlider({ images }: ImageSliderProps) {
         width={400}
         height={400}
         alt="product image"
-        className="object-contain transition-all duration-500"
+        className="object-contain  cursor-pointer-all duration-500"
       />
 
       <button
         onClick={goRight}
-        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 p-2 rounded-full shadow hover:scale-105 transition"
+        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 p-2 rounded-full shadow hover:scale-105 transition cursor-pointer"
       >
         <FaChevronRight size={20} />
       </button>
