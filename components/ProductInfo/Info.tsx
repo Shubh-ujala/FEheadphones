@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { FaArrowRight } from "react-icons/fa6";
+import ImageSlider from "./ImageSldier";
 
 interface propsInfo {
   id: string;
@@ -10,6 +11,7 @@ interface propsInfo {
   brand: string;
   price: string;
   img: string;
+  images:string[];
   description: string;
   features: Array<String>;
   rating: number;
@@ -36,13 +38,7 @@ function Info(props: reqProp) {
       <div className="flex flex-1 justify-evenly w-full py-10 min-w-0">
         <div className=" w-1/2 flex justify-center items-center min-w-0">
           <div className="bg-neutral-300/50 p-10 rounded-3xl ">
-            <Image
-              width={400}
-              height={400}
-              src={item.img}
-              alt="image"
-              className="object-contain"
-            />
+            <ImageSlider images={item.images}/>
           </div>
         </div>
 
