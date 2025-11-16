@@ -10,6 +10,7 @@ import { FaApple } from "react-icons/fa";
 import Button from "@/components/Button";
 import {cn} from '@/libs/utils'
 import Navbar from "@/components/Navbar";
+import Link from "next/link";
 
 
 function page() {
@@ -161,7 +162,7 @@ function page() {
       <div className="bg-black">
         <div className=" max-w-4xl m-auto text-white  flex justify-evenly items-center p-20 ">
         <div className="text-4xl font-primary font-semibold tracking-tight">Get support for your device</div>
-        <Button className={cn('border border-white bg-black transition-all duration-300 ease-in-out hover:scale-105 hover:bg-white hover:text-neutral-800')} color="white" name="CONTACT US"/>
+        <Link href={'/contact'} className={cn('border border-white bg-black transition-all duration-300 ease-in-out hover:scale-105 hover:bg-white hover:text-neutral-800 flex items-center p-2 gap-0  w-40 rounded-2xl justify-evenly cursor-pointer')} color="white">CONTACT US</Link>
       </div>
       </div>
     </>
