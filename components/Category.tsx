@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 interface propsSyntax {
@@ -11,7 +12,7 @@ function Category(props: propsSyntax) {
         {props.title}
       </div>
       <div className="h-px bg-gray-400 my-2"></div>
-      <div className="flex flex-col gap-2 font-primary font-medium ">
+      <Link href={'/contact'} className="flex flex-col gap-2 font-primary font-medium " >
         {props.items.map((ele, idx) => (
           <div
             key={idx}
@@ -20,7 +21,7 @@ function Category(props: propsSyntax) {
             {ele}
           </div>
         ))}
-      </div>
+      </Link>
     </div>
   );
 }

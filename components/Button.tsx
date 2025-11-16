@@ -6,6 +6,7 @@ interface buttonProps {
   icon?: React.ElementType;
   color?: string;
   className?: string;
+  onClick?:(event: React.MouseEvent<HTMLButtonElement>) => void;
 }
 function Button({ icon: Icon, name, color, className }: buttonProps) {
   return (
