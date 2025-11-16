@@ -6,6 +6,11 @@ export const data = {
       brand: "Sony",
       price: "₹29,990",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Headphones",
       description:
         "Premium wireless headphones with world-class noise cancellation and exceptional comfort.",
@@ -27,6 +32,11 @@ export const data = {
       brand: "Bose",
       price: "₹32,900",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Headphones",
       description:
         "Comfort-focused ANC headphones with smooth balanced sound and all-day comfort.",
@@ -47,6 +57,11 @@ export const data = {
       brand: "Sennheiser",
       price: "₹34,990",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Headphones",
       description:
         "High-resolution audio with powerful bass and an incredible 60-hour battery.",
@@ -67,6 +82,11 @@ export const data = {
       brand: "JBL",
       price: "₹24,999",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Headphones",
       description:
         "Punchy bass, immersive sound, and True Adaptive Noise Cancellation.",
@@ -87,6 +107,11 @@ export const data = {
       brand: "Beats",
       price: "₹27,999",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Headphones",
       description:
         "Stylish premium headphones with Spatial Audio and powerful bass.",
@@ -107,6 +132,11 @@ export const data = {
       brand: "Audio-Technica",
       price: "₹21,999",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Headphones",
       description:
         "Studio-grade audio tuned for accuracy with wireless freedom.",
@@ -127,6 +157,11 @@ export const data = {
       brand: "Skullcandy",
       price: "₹14,999",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Headphones",
       description:
         "Bass-heavy wireless headphones with adjustable haptic feedback.",
@@ -147,6 +182,11 @@ export const data = {
       brand: "Marshall",
       price: "₹29,999",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Headphones",
       description:
         "Classic Marshall design with rich sound, warm bass, and great ANC.",
@@ -170,6 +210,11 @@ export const data = {
       brand: "Sony",
       price: "₹24,990",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Earbuds",
       description:
         "Industry-leading ANC earbuds with superb sound and clear call quality.",
@@ -190,6 +235,11 @@ export const data = {
       brand: "Bose",
       price: "₹27,900",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Earbuds",
       description:
         "Flagship ANC earbuds with immersive spatial audio and premium comfort.",
@@ -210,6 +260,11 @@ export const data = {
       brand: "Sennheiser",
       price: "₹29,990",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Earbuds",
       description:
         "Audiophile-grade TWS with rich sound and strong bass performance.",
@@ -230,6 +285,11 @@ export const data = {
       brand: "JBL",
       price: "₹19,999",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Earbuds",
       description:
         "Smart-case earbuds with ANC and customizable sound via JBL app.",
@@ -250,6 +310,11 @@ export const data = {
       brand: "Beats",
       price: "₹18,999",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Earbuds",
       description:
         "Workout-focused earbuds with secure fit and Spatial Audio support.",
@@ -270,6 +335,11 @@ export const data = {
       brand: "Nothing",
       price: "₹11,999",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Earbuds",
       description:
         "Transparent design earbuds with balanced sound and strong ANC.",
@@ -290,6 +360,11 @@ export const data = {
       brand: "OnePlus",
       price: "₹11,999",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Earbuds",
       description:
         "Premium earbuds with dual drivers and fast pair features.",
@@ -310,6 +385,11 @@ export const data = {
       brand: "Samsung",
       price: "₹17,999",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Earbuds",
       description:
         "Comfortable and lightweight earbuds with Hi-Fi sound quality.",
@@ -333,6 +413,11 @@ export const data = {
       brand: "JBL",
       price: "₹14,999",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Speakers",
       description:
         "Rugged portable speaker with powerful bass and long battery life.",
@@ -353,6 +438,11 @@ export const data = {
       brand: "Sony",
       price: "₹19,990",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Speakers",
       description:
         "Wide sound field speaker ideal for outdoor and party use.",
@@ -373,6 +463,11 @@ export const data = {
       brand: "Bose",
       price: "₹15,900",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Speakers",
       description:
         "Portable speaker with PositionIQ technology for adaptive sound.",
@@ -393,6 +488,11 @@ export const data = {
       brand: "Marshall",
       price: "₹17,999",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Speakers",
       description:
         "Iconic Marshall design with rich, loud, and immersive sound.",
@@ -413,6 +513,11 @@ export const data = {
       brand: "Ultimate Ears",
       price: "₹12,999",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Speakers",
       description:
         "360-degree sound speaker with excellent durability.",
@@ -433,6 +538,11 @@ export const data = {
       brand: "Anker",
       price: "₹9,999",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Speakers",
       description:
         "Affordable Hi-Res speaker with deep bass and extended treble.",
@@ -453,6 +563,11 @@ export const data = {
       brand: "Sonos",
       price: "₹19,999",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Speakers",
       description:
         "Premium smart speaker with Wi-Fi + Bluetooth and adaptive tuning.",
@@ -473,6 +588,11 @@ export const data = {
       brand: "Tribit",
       price: "₹16,999",
       img: "/productsImg/earbuds/SonyHeadphone1.png",
+      images: [
+        "/productsImg/earbuds/SonyHeadphone1.png",
+        "/productsImg/earbuds/SonyHeadphone2.png",
+        "/productsImg/earbuds/SonyHeadphone1.png",
+      ],
       category: "Speakers",
       description:
         "Powerful party speaker with deep bass and multicolor lighting.",
