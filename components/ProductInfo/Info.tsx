@@ -1,9 +1,12 @@
+'use client'
+
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { FaArrowRight } from "react-icons/fa6";
 import ImageSlider from "./ImageSldier";
+import { useRouter } from "next/navigation";
 
 interface propsInfo {
   id: string;
@@ -27,14 +30,18 @@ interface reqProp {
 
 function Info(props: reqProp) {
   const item = props.product;
+  const router = useRouter();
   return (
     <div className="max-w-7xl m-auto min-h-screen flex flex-col pt-5">
-      <Link
-        className="py-4 flex items-center"
-        href={`/products/${item.category}`}
+      <button
+        className="py-4 flex items-center cursor-pointer"
+        // href={`/products/${item.category}`}
+        onClick={()=>{
+            router.back();
+        }}
       >
         <IoMdArrowRoundBack size={20} /> Back
-      </Link>
+      </button>
       <div className="flex flex-1 justify-evenly w-full py-10 min-w-0">
         <div className=" w-1/2 flex justify-center items-center min-w-0">
           <div className="bg-neutral-300/50 p-10 rounded-3xl ">

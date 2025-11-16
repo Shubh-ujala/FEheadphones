@@ -4,8 +4,9 @@ import Link from 'next/link';
 import React from 'react'
 
 interface card{
-    id: number,
+    id: string,
     img : string,
+    images:string[]
     brand: string,
     price : string,
     name: string,
@@ -30,12 +31,12 @@ function ProductCard(props:jsonData) {
                         width={200}
                         height={200}
                         alt='image'
-                        src={ele.img}
+                        src={ele.images[0]}
                         className='rounded-xl content-center'
                     />
                   </div>
                   <div className='text-xl font-semibold'>{ele.brand}</div>
-                  <div className=''>{ele.name}</div>
+                  <div >{ele.name}</div>
                   <div>{ele.price}</div></div>
              </div>
              </Link>
