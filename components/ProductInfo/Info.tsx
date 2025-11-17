@@ -32,7 +32,7 @@ function Info(props: reqProp) {
   const item = props.product;
   const router = useRouter();
   return (
-    <div className="max-w-7xl m-auto min-h-screen flex flex-col pt-5">
+    <div className="max-w-7xl m-auto min-h-screen  flex flex-col pt-5">
       <button
         className="py-4 flex items-center cursor-pointer"
         // href={`/products/${item.category}`}
@@ -44,7 +44,7 @@ function Info(props: reqProp) {
       </button>
       <div className="flex flex-1 justify-evenly w-full py-10 min-w-0">
         <div className=" w-1/2 flex justify-center items-center min-w-0">
-          <div className="bg-neutral-300/50 p-10 rounded-3xl ">
+          <div className="bg-neutral-300/50 p-10 rounded-3xl overflow-hidden w-[550px] h-[550px] flex items-center justify-center">
             <ImageSlider images={item.images}/>
           </div>
         </div>

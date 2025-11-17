@@ -20,7 +20,6 @@ export default function ImageSlider({ images }: ImageSliderProps) {
     return () => clearInterval(interval);
   }, [images.length]);
 
-  
   const goLeft = () => {
     setIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
   };
@@ -30,29 +29,31 @@ export default function ImageSlider({ images }: ImageSliderProps) {
   };
 
   return (
-    <div className="relative  p-10 rounded-3xl flex items-center justify-center">
+    <div className="flex items-center gap-4">
 
       <button
         onClick={goLeft}
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 p-2 rounded-full shadow hover:scale-105 transition cursor-pointer "
+        className="bg-white/80 p-3 rounded-full shadow hover:scale-105 transition cursor-pointer"
       >
-        <FaChevronLeft size={20} />
+        <FaChevronLeft size={22} />
       </button>
 
-      <Image
-        src={images[index]}
-        width={400}
-        height={400}
-        alt="product image"
-        className="object-contain  cursor-pointer-all duration-500"
-      />
+      <div className="relative aspect-square w-[350px] sm:w-[400px] overflow-hidden rounded-3xl flex items-center justify-center">
+        <Image
+          src={images[index]}
+          alt="product image"
+          fill
+          className="object-contain duration-500"
+        />
+      </div>
 
       <button
         onClick={goRight}
-        className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 p-2 rounded-full shadow hover:scale-105 transition cursor-pointer"
+        className="bg-white/80 p-3 rounded-full shadow hover:scale-105 transition cursor-pointer"
       >
-        <FaChevronRight size={20} />
+        <FaChevronRight size={22} />
       </button>
+
     </div>
   );
 }
