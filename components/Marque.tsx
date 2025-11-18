@@ -5,7 +5,7 @@ import React from "react";
 const ImgUrl = [
   {
     id: 1,
-    url: '/wired.jpeg'
+    url: '/productsImg/earbuds/Nothing/Nothing3.png'
 },
 {
     id: 2,
