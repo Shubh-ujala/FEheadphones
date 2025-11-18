@@ -7,10 +7,13 @@ export default function Home() {
   return (
     <>
       {/* hero section comes here */}
-      <div className="max-w-7xl m-auto">
+        <div className="max-w-7xl m-auto  ">
         <Hero />
-      </div>
-      <Footer/>
+        </div>
+       <div className="absolute bottom-0 left-0 right-0 flex-1">
+        <Footer/>
+       </div>
+    
     </>
   );
 }
