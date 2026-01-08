@@ -1,4 +1,4 @@
-# AudioWave – Premium Audio Store
+# AudioWave – Premium Audio Store!!
 
 AudioWave is a modern and minimal e-commerce UI for browsing premium audio products including headphones, earbuds, and speakers.  
 The project is built with Next.js (App Router), Tailwind CSS, and TypeScript, focusing on clean UI, fast performance, and simple navigation.
